@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6772380417:AAE0Q2cPl0ZcUzgVOv7fQE0I7BrPZPNCArQ)
+bot = telebot.TeleBot('7387755036:AAG9Kx4RbLMb0V_lwjANPAd0e-4fFSx42no)
 
 # Admin user IDs
-admin_id = ["5935306519","6356252393"]
+admin_id = ["5004235634"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -366,8 +366,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @danav0
-Official Channel :- https://t.me/+Pw7z83Ju54ljOGFl
+Buy From :- @Krishna177
+Official Channel :- 
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -384,7 +384,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @danav0'''
+✅BUY :- @Krishna177'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -409,9 +409,9 @@ Vip 🌟 :
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
+Day-->70 Rs
 Week-->400 Rs
-Month-->1000 Rs
+Month-->600 Rs
 '''
     bot.reply_to(message, response)
 
