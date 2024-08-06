@@ -50,7 +50,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5935306519"]
+    admin_id = ["5004235634"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
@@ -327,7 +327,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command.                                                                          DM TO BUY ACCESS:- @danav0")
+        response = ("🚫 Unauthorized Access! 🚫\n\napne papa se permission leke aa /bgmi command use karne ki.                                                                          DM TO BUY ACCESS:- @danav0")
 
     bot.reply_to(message, response)
 
