@@ -327,7 +327,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\napne papa se permission leke aa /bgmi command use karne ki.                                                                          DM TO BUY ACCESS:- @danav0")
+        response = ("🚫 Unauthorized Access! 🚫\n\nfirst buy then use.                                                                          DM TO BUY ACCESS:- @danav0")
 
     bot.reply_to(message, response)
 
@@ -367,7 +367,6 @@ def show_help(message):
 💥 /admincmd : Shows All Admin Commands.
 
 Buy From :- @Krishna177
-Official Channel :- 
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -394,8 +393,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/+Pw7z83Ju54ljOGFl OTHERWISE NOT WORK
-4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
+3. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -405,7 +403,7 @@ def welcome_plan(message):
 
 Vip 🌟 :
 -> Attack Time : 300 (S)
-> After Attack Limit : 10 sec
+> After Attack Limit : 1 sec
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
